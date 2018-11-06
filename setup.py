@@ -42,9 +42,9 @@ This software package is a plugin module for HFOS.
       install_requires=[
           'hfos>=1.2.0'
       ],
-      entry_points="""[hfos.components]
+      entry_points="""[isomer.components]
     countablewatcher=hfos.countables.counter:Counter
-[hfos.schemata]
+[isomer.schemata]
     countable=hfos.countables.countable:Countable
     """,
       test_suite="tests.main.main",

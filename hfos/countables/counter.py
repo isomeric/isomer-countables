@@ -30,12 +30,12 @@ Module: Countables
 
 """
 
-from hfos.component import ConfigurableComponent, handler
-from hfos.database import objectmodels
-from hfos.events.system import authorizedevent
+from isomer.component import ConfigurableComponent, handler
+from isomer.database import objectmodels
+from isomer.events.system import authorized_event
 
 
-class increment(authorizedevent):
+class increment(authorized_event):
     """Increments the counter of a countable object"""
 
 
@@ -43,7 +43,7 @@ class Counter(ConfigurableComponent):
     """
     Watches for incrementation requests.
     """
-    channel = "hfosweb"
+    channel = 'isomer-web'
 
     configprops = {
     }
