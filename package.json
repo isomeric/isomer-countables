@@ -1,7 +1,7 @@
 {
-  "name": "hfos-countables",
+  "name": "isomer-countables",
   "version": "0.0.1",
-  "description": "A countables module for HFOS",
+  "description": "A countables module for Isomer",
   "preferGlobal": true,
   "scripts": {
     "build": "webpack --config webpack.build.js --bail -p",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hackerfleet/hfos-countables.git"
+    "url": "https://github.com/isomeric/isomer-countables.git"
   },
   "author": "Heiko 'riot' Weinen",
   "license": "AGPLv3",
   "bugs": {
-    "url": "https://github.com/hackerfleet/hfos-countables/issues"
+    "url": "https://github.com/isomeric/isomer-countables/issues"
   },
-  "homepage": "https://github.com/hackerfleet/hfos-countables",
+  "homepage": "https://github.com/isomeric/isomer-countables",
   "dependencies": {
   },
   "devDependencies": {

@@ -49,7 +49,7 @@ class countablescomponent {
 
     count(uuid) {
         let packet = {
-            component: 'hfos.countables.counter',
+            component: 'isomer.countables.counter',
             action: 'increment',
             data: uuid
         };

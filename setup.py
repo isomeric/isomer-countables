@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-# HFOS - Hackerfleet Operating System
-# ===================================
+# Isomer Application Framework
+# ============================
 # Copyright (C) 2011-2018 Heiko 'riot' Weinen <riot@c-base.org> and others.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -23,29 +23,29 @@ __license__ = "AGPLv3"
 
 from setuptools import setup, find_packages
 
-setup(name="hfos-countables",
+setup(name="isomer-countables",
       version="0.0.1",
-      description="hfos-countables - a module for counting arbitrary stuff",
-      author="Hackerfleet Community",
+      description="isomer-countables - a module for counting arbitrary stuff",
+      author="Isomer Community",
       author_email="riot@c-base.org",
-      url="https://github.com/hackerfleet/hfos-countables",
+      url="https://github.com/isomeric/isomer-countables",
       license="GNU Affero General Public License v3",
       packages=find_packages(),
-      long_description="""HFOS - Countables
-=================
+      long_description="""Isomer - Countables
+===================
 
 A module to allow defining and counting of things.
 
-This software package is a plugin module for HFOS.
+This software package is a plugin module for Isomer.
 """,
       dependency_links=[],
       install_requires=[
-          'hfos>=1.2.0'
+          'isomer>=1.0.0'
       ],
       entry_points="""[isomer.components]
-    countablewatcher=hfos.countables.counter:Counter
+    countablewatcher=isomer.countables.counter:Counter
 [isomer.schemata]
-    countable=hfos.countables.countable:Countable
+    countable=isomer.countables.countable:Countable
     """,
       test_suite="tests.main.main",
       )

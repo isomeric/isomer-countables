@@ -1,2 +1,2 @@
 # coding=utf-8
-"""Countables components for HFOS"""
+"""Countables components for Isomer"""
