@@ -23,29 +23,30 @@ __license__ = "AGPLv3"
 
 from setuptools import setup, find_packages
 
-setup(name="isomer-countables",
-      version="0.0.1",
-      description="isomer-countables - a module for counting arbitrary stuff",
-      author="Isomer Community",
-      author_email="riot@c-base.org",
-      url="https://github.com/isomeric/isomer-countables",
-      license="GNU Affero General Public License v3",
-      packages=find_packages(),
-      long_description="""Isomer - Countables
+setup(
+    name="isomer-countables",
+    version="0.0.1",
+    description="isomer-countables - a module for counting arbitrary stuff",
+    author="Isomer Community",
+    author_email="riot@c-base.org",
+    url="https://github.com/isomeric/isomer-countables",
+    license="GNU Affero General Public License v3",
+    packages=find_packages(),
+    long_description="""Isomer - Countables
 ===================
 
-A module to allow defining and counting of things.
+Simple (exemplary) module allowing definition and counting of things.
 
 This software package is a plugin module for Isomer.
 """,
-      dependency_links=[],
-      install_requires=[
-          'isomer>=1.0.0'
-      ],
-      entry_points="""[isomer.components]
+    dependency_links=[],
+    install_requires=[
+        'isomer>=1.0.0'
+    ],
+    entry_points="""[isomer.components]
     countablewatcher=isomer.countables.counter:Counter
 [isomer.schemata]
     countable=isomer.countables.countable:Countable
     """,
-      test_suite="tests.main.main",
-      )
+    test_suite="tests.main.main",
+)
