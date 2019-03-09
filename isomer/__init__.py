@@ -1,5 +1,5 @@
 # coding=utf-8
-"""Countables components for ISOMER"""
+"""Countables components for Isomer"""
 
 __author__ = "Heiko 'riot' Weinen <riot@c-base.org>"
 __license__ = "AGPLv3"
