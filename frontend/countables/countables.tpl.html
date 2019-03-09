@@ -16,7 +16,8 @@
                     <div class="panel-body" style="min-height: 51vh">
                         <ul>
                             <li ng-repeat="item in $ctrl.words">
-                                <a ng-click="$ctrl.count(item.uuid)" ng-style="{'font-size': item.size + 'px'}">{{ item.name }}</a>
+                                <a ng-click="$ctrl.count(item.uuid)" ng-style="{'font-size': item.size + 'px'}">{{
+                                    item.name }}</a>
                             </li>
 
                         </ul>

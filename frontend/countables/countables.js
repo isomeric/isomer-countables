@@ -18,7 +18,7 @@ class countablescomponent {
         ];
 
         this.getCountables = function () {
-            self.op.search('countable', '', ['amount']).then(function(msg){
+            self.op.search('countable', '', ['amount']).then(function (msg) {
                 let countables = msg.data.list;
                 let tags = [];
                 let max = 0;

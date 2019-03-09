@@ -1,7 +1,7 @@
 import angular from 'angular';
 import uirouter from 'angular-ui-router';
 
-import { routing } from './countables.config.js';
+import {routing} from './countables.config.js';
 
 import countablescomponent from './countables/countables.js';
 import template from './countables/countables.tpl.html';
